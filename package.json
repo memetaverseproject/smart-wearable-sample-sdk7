@@ -1,0 +1,27 @@
+{
+  "name": "mtv--project",
+  "version": "1.0.0",
+  "description": "SDK7 Template scene",
+  "scripts": {
+    "start": "mtv-sdk-commands start",
+    "deploy": "mtv-sdk-commands deploy",
+    "build": "mtv-sdk-commands build",
+    "upgrade-sdk": "npm install --save-dev @mtvproject/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-dev @mtvproject/sdk@next",
+    "pack": "sdk-commands pack-smart-wearable"
+  },
+  "devDependencies": {
+    "@mtvproject/js-runtime": "1.1.9",
+    "@mtvproject/sdk": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  }
+}
